@@ -15,5 +15,4 @@ public class Data
         this.eMail = eMail;
         this.phoneNumber = phoneNumber;
     }
-
 }

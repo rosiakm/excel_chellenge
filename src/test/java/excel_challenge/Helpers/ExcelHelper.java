@@ -1,5 +1,6 @@
 package excel_challenge.Helpers;
 
+import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -24,25 +25,19 @@ public class ExcelHelper
         //A special sheet from data will be read
         XSSFSheet sheet = workbook.getSheetAt(0);
 
-        /** When we have a sheet object in hand we can iterate on each
-         *  sheet's row and on each row's cell. We store the data read on
-         *  an ArrayList so that we can printed the content of the excel to the
-         *  console **/
         int rowsNumber = sheet.getLastRowNum();
-        int cellsNumber = sheet.getRow(0).getLastCellNum();
-        for (int i = 0; i<rowsNumber;i++)
+        DataFormatter formatter = new DataFormatter();
+
+        for (int i = 0; i < rowsNumber; i++)
         {
-            Row row = sheet.getRow(i+1);
-            for(int j = 0; j<=cellsNumber; j++)
-            {
-                excelData.add(new Data(row.getCell(0).getStringCellValue(),
-                                       row.getCell(1).getStringCellValue(),
-                                       row.getCell(2).getStringCellValue(),
-                                       row.getCell(3).getStringCellValue(),
-                                       row.getCell(4).getStringCellValue(),
-                                       row.getCell(5).getStringCellValue(),
-                                       row.getCell(6).getStringCellValue()));
-            }
+            Row row = sheet.getRow(i+i);
+            excelData.add(new Data(formatter.formatCellValue(row.getCell(0)),
+                                   formatter.formatCellValue(row.getCell(1)),
+                                   formatter.formatCellValue(row.getCell(2)),
+                                   formatter.formatCellValue(row.getCell(3)),
+                                   formatter.formatCellValue(row.getCell(4)),
+                                   formatter.formatCellValue(row.getCell(5)),
+                                   formatter.formatCellValue(row.getCell(6))));
         }
         return excelData;
     }

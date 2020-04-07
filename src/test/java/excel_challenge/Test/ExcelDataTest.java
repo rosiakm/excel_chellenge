@@ -1,10 +1,12 @@
 package excel_challenge.Test;
 
+import excel_challenge.Helpers.Data;
 import excel_challenge.Helpers.ExcelHelper;
 import org.testng.annotations.Test;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
 
 public class ExcelDataTest
 {
@@ -13,6 +15,6 @@ public class ExcelDataTest
     @Test
     public void excelDataTest() throws IOException
     {
-        System.out.println(ExcelHelper.readExcelFile(new File(path)).get(4));
+        System.out.println(ExcelHelper.readExcelFile(new File(path)).size());
     }
 }
