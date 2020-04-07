@@ -25,12 +25,12 @@ public class ExcelHelper
         //A special sheet from data will be read
         XSSFSheet sheet = workbook.getSheetAt(0);
 
-        int rowsNumber = sheet.getLastRowNum();
+        int rowsNumber = 10;
         DataFormatter formatter = new DataFormatter();
 
         for (int i = 0; i < rowsNumber; i++)
         {
-            Row row = sheet.getRow(i+i);
+            Row row = sheet.getRow(i+1);
             excelData.add(new Data(formatter.formatCellValue(row.getCell(0)),
                                    formatter.formatCellValue(row.getCell(1)),
                                    formatter.formatCellValue(row.getCell(2)),
