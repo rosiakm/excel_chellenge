@@ -14,11 +14,11 @@ import java.util.List;
 
 public class ExcelHelper
 {
+    public static List<Data> excelData = new ArrayList<>();
 
     public static List<Data> readExcelFile(File file) throws IOException
     {
         //An array to store the data from excel sheet
-        List<Data> excelData = new ArrayList<Data>();
         FileInputStream stream = new FileInputStream(file);
         //An excel workbook from the streamed file
         XSSFWorkbook workbook = new XSSFWorkbook(stream);
