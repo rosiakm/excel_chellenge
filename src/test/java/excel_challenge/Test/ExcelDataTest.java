@@ -1,13 +1,11 @@
 package excel_challenge.Test;
 
-import excel_challenge.Helpers.Data;
 import excel_challenge.Helpers.ExcelHelper;
 import excel_challenge.Pages.InputFormsPage;
 import org.testng.annotations.Test;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.List;
 
 public class ExcelDataTest
 {
@@ -17,7 +15,6 @@ public class ExcelDataTest
     @Test
     public void excelDataTest() throws IOException
     {
-        List<Data> excelData = ExcelHelper.readExcelFile(new File(path));
-        inputForms.fillInputs(excelData);
+        inputForms.fillInputs(ExcelHelper.readExcelFile(new File(path)));
     }
 }
