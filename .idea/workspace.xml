@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="f9765010-e79d-4fc8-a1f8-2da7e097848a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/excel_challenge/Configuration/DriverSetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/excel_challenge/Configuration/DriverSetUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/excel_challenge/Pages/InputFormsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/excel_challenge/Pages/InputFormsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/excel_challenge/Test/ExcelDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/excel_challenge/Test/ExcelDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/excel_challenge/Configuration/DriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/excel_challenge/Configuration/DriverFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/excel_challenge/Configuration/DriverSetUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/excel_challenge/Configuration/DriverSetUp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/excel_challenge/Helpers/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/excel_challenge/Helpers/Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/excel_challenge/Helpers/ExcelHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/excel_challenge/Helpers/ExcelHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/excel_challenge/Pages/InputFormsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/excel_challenge/Pages/InputFormsPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/excel_challenge/Test/ExcelDataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/excel_challenge/Test/ExcelDataTest.class" afterDir="false" />
     </list>
@@ -14,6 +17,10 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideInfoMessages" value="true" />
+    <option name="HIDE_INFO_MESSAGES" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -54,8 +61,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../automation_practice" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunManager" selected="TestNG.ExcelDataTest">
     <configuration name="ExcelDataTest" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -146,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586339372288</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&quot;Develop version&quot;">
+      <created>1586421460096</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586421460096</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -166,66 +181,66 @@
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
     <state x="-990" y="274" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586328735773" />
-    <state x="-1071" y="121" key="CommitChangelistDialog2" timestamp="1586339369213">
+    <state x="-1071" y="121" key="CommitChangelistDialog2" timestamp="1586421456420">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
-    <state x="-1071" y="121" key="CommitChangelistDialog2/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586339369213" />
+    <state x="-1071" y="121" key="CommitChangelistDialog2/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586421456420" />
     <state x="-1348" y="189" width="1256" height="676" key="DiffContextDialog" timestamp="1586257714130">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
     <state x="-1348" y="189" width="1256" height="676" key="DiffContextDialog/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586257714130" />
-    <state x="-940" y="281" key="FileChooserDialogImpl" timestamp="1586414337141">
+    <state x="-940" y="281" key="FileChooserDialogImpl" timestamp="1586502145829">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
-    <state x="-940" y="281" key="FileChooserDialogImpl/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586414337141" />
-    <state width="1397" height="214" key="GridCell.Tab.0.bottom" timestamp="1586421397728">
+    <state x="-940" y="281" key="FileChooserDialogImpl/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586502145829" />
+    <state width="1397" height="214" key="GridCell.Tab.0.bottom" timestamp="1586502976219">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
-    <state width="1397" height="214" key="GridCell.Tab.0.bottom/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586421397728" />
+    <state width="1397" height="214" key="GridCell.Tab.0.bottom/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586502976219" />
     <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585928618444" />
-    <state width="1397" height="214" key="GridCell.Tab.0.center" timestamp="1586421397727">
+    <state width="1397" height="214" key="GridCell.Tab.0.center" timestamp="1586502976219">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
-    <state width="1397" height="214" key="GridCell.Tab.0.center/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586421397727" />
+    <state width="1397" height="214" key="GridCell.Tab.0.center/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586502976219" />
     <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585928618444" />
-    <state width="1397" height="214" key="GridCell.Tab.0.left" timestamp="1586421397727">
+    <state width="1397" height="214" key="GridCell.Tab.0.left" timestamp="1586502976219">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
-    <state width="1397" height="214" key="GridCell.Tab.0.left/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586421397727" />
+    <state width="1397" height="214" key="GridCell.Tab.0.left/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586502976219" />
     <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585928618444" />
-    <state width="1397" height="214" key="GridCell.Tab.0.right" timestamp="1586421397728">
+    <state width="1397" height="214" key="GridCell.Tab.0.right" timestamp="1586502976219">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
-    <state width="1397" height="214" key="GridCell.Tab.0.right/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586421397728" />
+    <state width="1397" height="214" key="GridCell.Tab.0.right/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586502976219" />
     <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585928618444" />
-    <state width="1397" height="266" key="GridCell.Tab.1.bottom" timestamp="1586419330258">
+    <state width="1397" height="266" key="GridCell.Tab.1.bottom" timestamp="1586502923447">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
-    <state width="1397" height="266" key="GridCell.Tab.1.bottom/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586419330258" />
-    <state width="1397" height="266" key="GridCell.Tab.1.center" timestamp="1586419330258">
+    <state width="1397" height="266" key="GridCell.Tab.1.bottom/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586502923447" />
+    <state width="1397" height="266" key="GridCell.Tab.1.center" timestamp="1586502923447">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
-    <state width="1397" height="266" key="GridCell.Tab.1.center/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586419330258" />
-    <state width="1397" height="266" key="GridCell.Tab.1.left" timestamp="1586419330258">
+    <state width="1397" height="266" key="GridCell.Tab.1.center/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586502923447" />
+    <state width="1397" height="266" key="GridCell.Tab.1.left" timestamp="1586502923447">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
-    <state width="1397" height="266" key="GridCell.Tab.1.left/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586419330258" />
-    <state width="1397" height="266" key="GridCell.Tab.1.right" timestamp="1586419330258">
+    <state width="1397" height="266" key="GridCell.Tab.1.left/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586502923447" />
+    <state width="1397" height="266" key="GridCell.Tab.1.right" timestamp="1586502923447">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
-    <state width="1397" height="266" key="GridCell.Tab.1.right/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586419330258" />
+    <state width="1397" height="266" key="GridCell.Tab.1.right/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586502923447" />
     <state x="-966" y="238" key="RollbackChangesDialog" timestamp="1586421200791">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
     <state x="-966" y="238" key="RollbackChangesDialog/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586421200791" />
-    <state x="-1240" y="101" key="SettingsEditor" timestamp="1585739687961">
+    <state x="-1240" y="101" key="SettingsEditor" timestamp="1586501736966">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
-    <state x="-1240" y="101" key="SettingsEditor/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1585739687961" />
-    <state x="-1128" y="260" key="Vcs.Push.Dialog.v2" timestamp="1586339380735">
+    <state x="-1240" y="101" key="SettingsEditor/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586501736966" />
+    <state x="-1128" y="260" key="Vcs.Push.Dialog.v2" timestamp="1586421468325">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
-    <state x="-1128" y="260" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586339380735" />
+    <state x="-1128" y="260" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586421468325" />
     <state x="-1348" y="189" width="1256" height="676" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1586256109641">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>

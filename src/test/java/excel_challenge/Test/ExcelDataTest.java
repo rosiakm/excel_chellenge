@@ -17,5 +17,7 @@ public class ExcelDataTest extends DriverSetUp
     public void excelDataTest() throws IOException
     {
         inputForms.fillInputs(ExcelHelper.readExcelFile(new File(path)));
+        inputForms.roundNumberChecking();
+        inputForms.resultMessageChecking();
     }
 }
