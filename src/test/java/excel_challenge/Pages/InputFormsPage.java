@@ -59,16 +59,16 @@ public class InputFormsPage
         startButton.click();
         long startTimeMillis = Calendar.getInstance().getTimeInMillis();
 
-        for (int i = 1; i <= 10; i++)
+        for (Data row : excelData)
         {
             roundNumbers.add(roundButton.getText());
-            firstNameInput.sendKeys(excelData.get(i-1).getFirstName());
-            lastNameInput.sendKeys(excelData.get(i-1).getLastName());
-            emailInput.sendKeys(excelData.get(i-1).geteMail());
-            roleInCompanyInput.sendKeys(excelData.get(i-1).getRoleInCompany());
-            companyNameInput.sendKeys(excelData.get(i-1).getCompanyName());
-            phoneNumberInput.sendKeys(excelData.get(i-1).getPhoneNumber());
-            addressInput.sendKeys(excelData.get(i-1).getAddress());
+            firstNameInput.sendKeys(row.getFirstName());
+            lastNameInput.sendKeys(row.getLastName());
+            emailInput.sendKeys(row.geteMail());
+            roleInCompanyInput.sendKeys(row.getRoleInCompany());
+            companyNameInput.sendKeys(row.getCompanyName());
+            phoneNumberInput.sendKeys(row.getPhoneNumber());
+            addressInput.sendKeys(row.getAddress());
 
             submitButton.click();
         }
@@ -83,11 +83,6 @@ public class InputFormsPage
         return roundNumbers;
     }
 
-    public void resultMessageChecking()
-    {
-        assertThat(resultMessage.getText()).contains("70 out of 70 fields");
-    }
-
      public List<String> getRoundNumbers()
      {
          List<String> allRoundNumbers = new ArrayList<>();
@@ -100,10 +95,14 @@ public class InputFormsPage
 
      public void roundNumberChecking()
      {
-         for(int i = 0; i < 10; i++)
+         for(int i = 0; i < getRoundNumbers().size(); i++)
          {
              assertThat(getRoundNumbers().get(i)).isEqualTo(String.format("ROUND %d",i+1));
          }
      }
 
+    public void resultMessageChecking()
+    {
+        assertThat(resultMessage.getText()).contains("70 out of 70 fields");
+    }
 }

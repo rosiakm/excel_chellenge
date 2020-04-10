@@ -9,6 +9,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 
@@ -25,12 +26,12 @@ public class ExcelHelper
         //A special sheet from data will be read
         XSSFSheet sheet = workbook.getSheetAt(0);
 
-        int rowsNumber = 10;
+        Iterator<Row> rowIterator = sheet.rowIterator();
         DataFormatter formatter = new DataFormatter();
 
-        for (int i = 0; i < rowsNumber; i++)
+        while (rowIterator.hasNext())
         {
-            Row row = sheet.getRow(i+1);
+            Row row = rowIterator.next();
             excelData.add(new Data(formatter.formatCellValue(row.getCell(0)),
                                    formatter.formatCellValue(row.getCell(1)),
                                    formatter.formatCellValue(row.getCell(2)),
@@ -39,6 +40,7 @@ public class ExcelHelper
                                    formatter.formatCellValue(row.getCell(5)),
                                    formatter.formatCellValue(row.getCell(6))));
         }
+        excelData.remove(0);
         return excelData;
     }
 }
