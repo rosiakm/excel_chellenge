@@ -3,7 +3,8 @@ package excel_challenge.Test;
 import excel_challenge.Configuration.DriverSetUp;
 import excel_challenge.Helpers.ExcelHelper;
 import excel_challenge.Pages.InputFormsPage;
-import org.testng.annotations.Test;
+import org.junit.Test;
+
 
 import java.io.File;
 import java.io.IOException;

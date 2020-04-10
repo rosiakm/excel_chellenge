@@ -4,12 +4,6 @@
     <list default="true" id="f9765010-e79d-4fc8-a1f8-2da7e097848a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/excel_challenge/Configuration/DriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/excel_challenge/Configuration/DriverFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/excel_challenge/Configuration/DriverSetUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/excel_challenge/Configuration/DriverSetUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/excel_challenge/Helpers/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/excel_challenge/Helpers/Data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/excel_challenge/Helpers/ExcelHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/excel_challenge/Helpers/ExcelHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/excel_challenge/Pages/InputFormsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/excel_challenge/Pages/InputFormsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/excel_challenge/Test/ExcelDataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/excel_challenge/Test/ExcelDataTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +51,8 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Selenium" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -173,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586508918190</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="&quot;Develop version&quot;">
+      <created>1586520629536</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586520629537</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -197,18 +198,18 @@
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
     <state x="-990" y="274" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586328735773" />
-    <state x="-1071" y="121" key="CommitChangelistDialog2" timestamp="1586508915140">
+    <state x="-1071" y="121" key="CommitChangelistDialog2" timestamp="1586520626198">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
-    <state x="-1071" y="121" key="CommitChangelistDialog2/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586508915140" />
+    <state x="-1071" y="121" key="CommitChangelistDialog2/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586520626198" />
     <state x="-1348" y="189" width="1256" height="676" key="DiffContextDialog" timestamp="1586257714130">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
     <state x="-1348" y="189" width="1256" height="676" key="DiffContextDialog/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586257714130" />
-    <state x="-940" y="281" key="FileChooserDialogImpl" timestamp="1586512674559">
+    <state x="-940" y="281" key="FileChooserDialogImpl" timestamp="1586521015885">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
-    <state x="-940" y="281" key="FileChooserDialogImpl/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586512674559" />
+    <state x="-940" y="281" key="FileChooserDialogImpl/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586521015885" />
     <state width="1397" height="214" key="GridCell.Tab.0.bottom" timestamp="1586520609662">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
@@ -249,14 +250,14 @@
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
     <state x="-966" y="238" key="RollbackChangesDialog/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586421200791" />
-    <state x="-1240" y="101" key="SettingsEditor" timestamp="1586520520241">
+    <state x="-1240" y="101" key="SettingsEditor" timestamp="1586521718037">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
-    <state x="-1240" y="101" key="SettingsEditor/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586520520240" />
-    <state x="-1128" y="260" key="Vcs.Push.Dialog.v2" timestamp="1586508922804">
+    <state x="-1240" y="101" key="SettingsEditor/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586521718037" />
+    <state x="-1128" y="260" key="Vcs.Push.Dialog.v2" timestamp="1586520634623">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>
-    <state x="-1128" y="260" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586508922804" />
+    <state x="-1128" y="260" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1440.97.1440.860@-1440.97.1440.860" timestamp="1586520634623" />
     <state x="-1348" y="189" width="1256" height="676" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1586256109641">
       <screen x="-1440" y="97" width="1440" height="860" />
     </state>

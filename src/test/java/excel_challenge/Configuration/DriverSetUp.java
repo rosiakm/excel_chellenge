@@ -1,20 +1,22 @@
 package excel_challenge.Configuration;
 
+
+import org.junit.After;
+import org.junit.Before;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+
 
 public class DriverSetUp
 {
     public WebDriver driver;
 
-    @BeforeClass
+    @Before
     public void setUpDriver()
     {
         driver = DriverFactory.getDriver();
     }
 
-    @AfterClass
+    @After
     public void tearDownDriver()
     {
         DriverFactory.quit();
